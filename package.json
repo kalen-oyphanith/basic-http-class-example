@@ -1,0 +1,30 @@
+{
+    "name": "basic-http-class-example",
+    "version": "1.0.0",
+    "engines": {
+        "node": "12.18.3",
+        "npm": "6.14.6"
+    },
+    "description": "Basic http server example",
+    "main": "./src/server.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "pretest": "eslint ./src --fix",
+        "test": "echo \"Test Complete\""
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/kalen-oyphanith/basic-http-class-example.git"
+    },
+    "author": "Kalen Oyphanith",
+    "license": "UNLICENSED",
+    "bugs": {
+        "url": "https://github.com/kalen-oyphanith/basic-http-class-example/issues"
+    },
+    "homepage": "https://github.com/kalen-oyphanith/basic-http-class-example#readme",
+    "devDependencies": {
+        "eslint": "^7.7.0",
+        "eslint-config-airbnb": "^18.2.0",
+        "eslint-plugin-import": "^2.22.0"
+    }
+}
